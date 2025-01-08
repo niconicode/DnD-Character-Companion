@@ -1,4 +1,4 @@
-# DND Real-Time Character Sheet Webapp
+# DND Real-Time Character Sheet Web App
 
 CS410 Long Project
 Fall 2024
@@ -8,10 +8,36 @@ This app will allow players and DMs to log in create and store character sheets,
 Built with Node.js, Express, MongoDB, Socket.io, and JWT for authentication.
 
 ## Features
+- **User Authentication**
+  - Secure login/signup system
+  - JWT-based session management
+  - Password encryption using bcrypt
 
-* User authentication and authorization
-* Character sheet creation, storage, and real-time updates
-* DM tools for updating character sheets
+- **Character Management**
+  - Create new character sheets
+  - Real-time updates across all connected clients
+  - Automatic ability modifier calculations
+  - Equipment management system
+  - Character stats tracking (HP, AC, etc.)
+
+- **DM Tools**
+  - Overview of all player characters
+  - Real-time character sheet modifications
+  - Character status monitoring
+
+## Technology Stack
+- **Frontend**
+  - HTML5/CSS3
+  - JavaScript
+  - Socket.IO Client
+  - Bootstrap
+
+- **Backend**
+  - Node.js
+  - Express.js
+  - MongoDB
+  - Socket.IO
+  - JWT Authentication
 
 ## Prerequisites
 
