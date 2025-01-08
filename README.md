@@ -1,7 +1,6 @@
 # DND Real-Time Character Sheet Webapp
 
 CS410 Long Project
-Team 3: Nicole Strounine, Kam Lun Cheung, 
 Fall 2024
 
 This app will allow players and DMs to log in create and store character sheets, as well as update them in real time. The DM will also have the ability to update any character sheet in real time. 
